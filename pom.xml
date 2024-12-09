@@ -22,30 +22,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.4.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-beans</artifactId>
-                </exclusion>
-                <!--                <exclusion>-->
-                <!--                    <groupId>org.apache.tomcat.embed</groupId>-->
-                <!--                    <artifactId>tomcat-embed-core</artifactId>-->
-                <!--                </exclusion>-->
-            </exclusions>
         </dependency>
-
-        <!--        <dependency>-->
-        <!--            <groupId>org.apache.tomcat.embed</groupId>-->
-        <!--            <artifactId>tomcat-embed-core</artifactId>-->
-        <!--            <version>11.0.0</version>-->
-        <!--        </dependency>-->
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>5.3.18</version>
-        </dependency>
-
         <dependency>
             <groupId>com.atlassian.connect</groupId>
             <artifactId>atlassian-connect-spring-boot-starter</artifactId>
@@ -57,13 +34,6 @@
             <version>${atlassian-connect-spring-boot.version}</version>
         </dependency>
         <!--        thymeleaf-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.thymeleaf</groupId>-->
-<!--            <artifactId>thymeleaf</artifactId>-->
-<!--            <version>3.1.2.RELEASE</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -129,11 +99,11 @@
             <artifactId>quartz</artifactId>
             <version>2.3.2</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.atlassian.json</groupId>-->
-        <!--            <artifactId>atlassian-json-jsonorg</artifactId>-->
-        <!--            <version>0.11</version>-->
-        <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.atlassian.json</groupId>-->
+<!--            <artifactId>atlassian-json-jsonorg</artifactId>-->
+<!--            <version>0.11</version>-->
+<!--        </dependency>-->
 
 
         <!-- https://mvnrepository.com/artifact/org.json/json -->
