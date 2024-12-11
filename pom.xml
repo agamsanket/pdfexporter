@@ -14,7 +14,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <atlassian-connect-spring-boot.version>2.3.6</atlassian-connect-spring-boot.version>
+        <atlassian-connect-spring-boot.version>2.3.0</atlassian-connect-spring-boot.version>
     </properties>
 
     <dependencies>
@@ -28,9 +28,13 @@
                     <artifactId>spring-beans</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-databind</artifactId>
                 </exclusion>
+<!--                <exclusion>-->
+<!--                    <groupId>org.springframework.boot</groupId>-->
+<!--                    <artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--                </exclusion>-->
             </exclusions>
         </dependency>
 
